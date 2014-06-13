@@ -4,4 +4,4 @@
 (setf *random-state* (make-random-state t))
 (setq randomNum (random (length choices)))
 
-(print (nth randomnum choices))
+(print (nth randomNum choices))

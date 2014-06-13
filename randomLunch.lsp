@@ -1,5 +1,5 @@
 ;; Set restaurants here
-(setq choices '(jcs dels jc olive haystack))
+(setq choices '(frankies dels jc olive haystack f&h))
 
 (setf *random-state* (make-random-state t))
 (setq randomNum (random (length choices)))

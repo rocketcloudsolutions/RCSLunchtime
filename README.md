@@ -1,4 +1,4 @@
 RCSLunchtime
 ============
 
-Magic Lisp lunch time roulette.
+What's for lunch? Leave it up to Math.random

@@ -1,10 +1,34 @@
 {
-    "frankies": {},
-    "jorgs cafe vienna": {},
-    "fox and the hound": {},
-    "dels": {},
-    "jcs": {},
-    "olive": {},
-    "haystack": {},
-    "pizza buffet": {}
+    "frankies": {
+        "type" : ["mexican"],
+        "bar" : true
+    },
+    "jorgs cafe vienna": {
+        "type" : ["german"],
+        "bar" : true
+    },
+    "fox and the hound": {
+        "type" : ["burger"],
+        "bar" : true
+    },
+    "dels": {
+        "type" : ["burger"],
+        "bar" : true
+    },
+    "jcs": {
+        "type" : ["burger"],
+        "bar" : false
+    },
+    "olive": {
+        "type" : ["burger"],
+        "bar" : false
+    },
+    "haystack": {
+        "type" : ["burger"],
+        "bar" : true
+    },
+    "pizza buffet": {
+        "type" : ["pizza"],
+        "bar" : true
+    }
 }

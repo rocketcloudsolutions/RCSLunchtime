@@ -1,10 +1,13 @@
 #!/usr/bin/env node
 
-function lunchtime(places){
+console.dir((function(places){
     return places[Math.floor((Math.random() * places.length) + 0)]
-}
-
-console.dir(lunchtime([
-    'haystack', 'frankies', 'dels', 'jc',
-    'olive', 'bjs', 'jorgs', 'fox and hound'
+	})([
+    'chilosos', 'Shadys', 'burger street',
+    'taco ocho', 'jorgs', 'fox and hound', 'bavarian grille',
+    'shucks', 'abocas', 'main st bistro'
 ]));
+
+
+
+

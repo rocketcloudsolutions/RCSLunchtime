@@ -1,17 +1,3 @@
 <?php
 
-class Lunch {
-
-    public function randomPlaces()
-    {
-        $places = array("haystack", "frankies", "dels", "jc",
-            "olive", "bjs", "jorgs", "fox and hound");
-
-        return $places[array_rand($places)];
-    }
-
-}
-$randomLunch = new Lunch();
-echo "\r\n", $randomLunch->randomPlaces(), "\r\n";
-
-?>
+echo ['jimmy johns', 'jasons deli', 'liberty burger', 'jens place'][rand(0,3)];
